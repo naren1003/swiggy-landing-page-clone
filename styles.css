@@ -55,12 +55,15 @@ a{
     background-color:orangered;
     margin: 0;
     padding: 0;
-}
-
-.banner{
     display: flex;
     justify-content: space-between;
-    padding-top:30px ;
+    padding-top:100px ;
+    gap:20px;
+}
+
+.banner_info h1{
+    text-align: center;
+    margin:90px;
 }
 
 .banner_img{
@@ -74,3 +77,23 @@ a{
     font-size: 50px;
 }
 
+.banner_ip{
+    display:flex;
+    justify-content: center;
+    gap:30px;
+    margin:30px;
+}
+
+.banner_ip select,input{
+    padding: 20px;
+    font-size: large;
+    color: grey;
+}
+
+.banner section{
+    width: 30vw;
+}
+
+.banner_ip input{
+    width: 30vw;
+}
