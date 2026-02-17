@@ -3,7 +3,7 @@ body{
     padding: 0;
     height:100%;
     font-weight: 200;
-    color: white;
+    color: black;
 }
 
 header{
@@ -64,6 +64,7 @@ a{
 .banner_info h1{
     text-align: center;
     margin:90px;
+    color:white;
 }
 
 .banner_img{
@@ -88,6 +89,9 @@ a{
     padding: 20px;
     font-size: large;
     color: grey;
+    border-radius: 20px;
+    padding-inline: 20px;
+    border: 0px;
 }
 
 .banner section{
@@ -96,4 +100,27 @@ a{
 
 .banner_ip input{
     width: 30vw;
+}
+
+.banner_img2{
+    height: 300px;
+    width: 350px;
+}
+
+.banner_foodimg{
+    display: flex;
+    justify-content: center;
+}
+
+.food_options{
+    margin: 130px;
+}
+
+.food-row{
+    display: flex;
+}
+
+.food-image{
+    height: 144px;
+    width: 180px;
 }
