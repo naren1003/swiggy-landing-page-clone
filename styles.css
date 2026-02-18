@@ -116,8 +116,27 @@ a{
     margin: 130px;
 }
 
-.food-row{
+.food-rows {
     display: flex;
+    flex-direction: column;  
+    overflow-x: auto;       
+    scroll-behavior: smooth;
+    gap: 20px;
+}
+
+.food-rows::-webkit-scrollbar {
+    display: none;
+}
+
+.food-row {
+    display: flex;
+    gap: 20px;
+}
+
+.food-image {
+    height: 144px;
+    width: 180px;
+    flex-shrink: 0;
 }
 
 .food-image{

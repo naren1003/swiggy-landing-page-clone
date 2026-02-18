@@ -42,8 +42,8 @@
             <div style="display: flex; justify-content: space-between;">   
                 <h2>Order our best food options</h2>
                 <div style="display: flex; gap:10px">
-                    <p><i class="fa-solid fa-arrow-left"></i></p>
-                    <p><i class="fa-solid fa-arrow-right"></i></p>
+                    <p class="left"><i class="fa-solid fa-arrow-left"></i></p>
+                    <p class="right"><i class="fa-solid fa-arrow-right"></i></p>
                 </div>
             </div>
             <div class="food-rows">
@@ -74,5 +74,25 @@
             </div>
         </div>
     </main>
+
+<script>
+const container = document.querySelector(".food-rows");
+const leftBtn = document.querySelector(".left");
+const rightBtn = document.querySelector(".right");
+
+rightBtn.addEventListener("click", () => {
+    container.scrollBy({
+        left: 400,
+        behavior: "smooth"
+    });
+});
+
+leftBtn.addEventListener("click", () => {
+    container.scrollBy({
+        left: -400,
+        behavior: "smooth"
+    });
+});
+</script>
 </body>
 </html>
