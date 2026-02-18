@@ -103,8 +103,8 @@ a{
 }
 
 .banner_img2{
-    height: 300px;
-    width: 350px;
+    height: 280px;
+    width: 320px;
 }
 
 .banner_foodimg{
@@ -123,4 +123,10 @@ a{
 .food-image{
     height: 144px;
     width: 180px;
+}
+
+.food_options i{
+    padding:10px;
+    background-color: lightgray;
+    border-radius: 100%;
 }
