@@ -73,12 +73,100 @@
                 </div>
             </div>
         </div>
+        <div class="food_options">
+            <div style="display: flex; justify-content: space-between;">   
+                <h2>Shop groceries on Instamart</h2>
+                <div style="display: flex; gap:10px">
+                    <p class="left1"><i class="fa-solid fa-arrow-left"></i></p>
+                    <p class="right1"><i class="fa-solid fa-arrow-right"></i></p>
+                </div>
+            </div>
+            <div class="food-rows1">
+                <div class="food-row">
+                    <div class="insta-img">
+                        <img src="images/bath,body and hair.png" alt="Bath,Body and Hair" class="food-image1">
+                        <h3>Bath,Body and Hair</h3>
+                    </div>
+                    <div class="insta-img">
+                        <img src="images/Biscuits and Cakes.png" alt="Biscuits and Cakes" class="food-image1">
+                        <h3>Biscuits and Cakes</h3>
+                    </div>
+                    <div class="insta-img">
+                        <img src="images/Cereals and Breakfast.png" alt="Cereals and Breakfast" class="food-image1">
+                        <h3>Cereals and Breakfast</h3>
+                    </div>
+                    <div class="insta-img">
+                        <img src="images/Cold Drinks and Juices.png" alt="Cold Drinks and Juices" class="food-image1">
+                        <h3>Cold Drinks and Juices</h3>
+                    </div>
+                    <div class="insta-img">
+                        <img src="images/Dairy, Bread and Eggs.png" alt="Dairy, Bread and Eggs" class="food-image1">
+                        <h3>Dairy, Bread and Eggs</h3>
+                    </div>
+                    <div class="insta-img">
+                        <img src="images/Fresh Fruits.png" alt="Fresh Fruits" class="food-image1">
+                        <h3>Fresh Fruits</h3>
+                    </div>
+                    <div class="insta-img">
+                        <img src="images/Fresh Vegetables.png" alt="Fresh Vegetables" class="food-image1">
+                        <h3>Fresh Vegetables</h3>
+                    </div>
+                    <div class="insta-img">
+                        <img src="images/Instant and Frozen Food.png" alt="Instant and Frozen Food" class="food-image1">
+                        <h3>Instant and Frozen Food</h3>
+                    </div>
+                    <div class="insta-img">
+                        <img src="images/Masalas and Dry Fruits.png" alt="Masalas and Dry Fruits" class="food-image1">
+                        <h3>Masalas and Dry Fruits</h3>
+                    </div>
+                    <div class="insta-img">
+                        <img src="images/Meat and Seafood.png" alt="Meat and Seafood" class="food-image1">
+                        <h3>Meat and Seafood</h3>
+                    </div>
+                    <div class="insta-img">
+                        <img src="images/Munchies.png" alt="Munchies" class="food-image1">
+                        <h3>Munchies</h3>
+                    </div>
+                    <div class="insta-img">
+                        <img src="images/Oils and Ghee.png" alt="Oils and Ghee" class="food-image1">
+                        <h3>Oils and Ghee</h3>
+                    </div>
+                    <div class="insta-img">
+                        <img src="images/pawn.png" alt="pawn" class="food-image1">
+                        <h3>Pawn Corner</h3>
+                    </div>
+                    <div class="insta-img">
+                        <img src="images/pharma and hygein.png" alt="pharma and hygein" class="food-image1">
+                        <h3>pharma and hygein</h3>
+                    </div>
+                    <div class="insta-img">
+                        <img src="images/Rice, Atta and Dals.png" alt="Rice, Atta and Dals" class="food-image1">
+                        <h3>Rice, Atta and Dals</h3>
+                    </div>
+                    <div class="insta-img">
+                        <img src="images/Sauces and Spreads.png" alt="Sauces and Spreads" class="food-image1">
+                        <h3>Sauces and Spreads</h3>
+                    </div>
+                    <div class="insta-img">
+                        <img src="images/Sweet Tooth.png" alt="Sweet Tooth" class="food-image1">
+                        <h3>Sweet Tooth</h3>
+                    </div>
+                    <div class="insta-img">
+                        <img src="images/Tea, Coffee.png" alt="Tea & Coffee" class="food-image1">
+                        <h3>Tea & Coffee</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
 
 <script>
 const container = document.querySelector(".food-rows");
 const leftBtn = document.querySelector(".left");
 const rightBtn = document.querySelector(".right");
+const container1 = document.querySelector(".food-rows1");
+const leftBtn1 = document.querySelector(".left1");
+const rightBtn1 = document.querySelector(".right1");
 
 rightBtn.addEventListener("click", () => {
     container.scrollBy({
@@ -89,6 +177,20 @@ rightBtn.addEventListener("click", () => {
 
 leftBtn.addEventListener("click", () => {
     container.scrollBy({
+        left: -400,
+        behavior: "smooth"
+    });
+});
+
+rightBtn1.addEventListener("click", () => {
+    container1.scrollBy({
+        left: 400,
+        behavior: "smooth"
+    });
+});
+
+leftBtn1.addEventListener("click", () => {
+    container1.scrollBy({
         left: -400,
         behavior: "smooth"
     });
