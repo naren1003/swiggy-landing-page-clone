@@ -116,7 +116,7 @@ a{
     margin: 130px;
 }
 
-.food-rows,.food-rows1 {
+.food-rows,.food-rows1,.food-rows2 {
     display: flex;
     flex-direction: column;  
     overflow-x: auto;       
@@ -129,6 +129,10 @@ a{
 }
 
 .food-rows1::-webkit-scrollbar {
+    display: none;
+}
+
+.food-rows2::-webkit-scrollbar {
     display: none;
 }
 
@@ -158,4 +162,71 @@ a{
     text-align: center;
     height: 194px;
     width: 180px;
+}
+
+.image-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: last baseline;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 330px;
+    border-radius: 20px;
+}
+
+#img1{
+    background-image: url(images/restaurant1.jpg);
+}
+
+#img2{
+    background-image: url(images/restaurant2.jpg);
+}
+
+#img3{
+    background-image: url(images/restaurant3.jpg);
+}
+#img4{
+    background-image: url(images/restaurant4.jpg);
+}
+#img5{
+    background-image: url(images/restaurant5.jpg);
+}
+#img6{
+    background-image: url(images/restaurant6.jpg);
+}
+#img7{
+    background-image: url(images/restaurant7.jpg);
+}
+#img8{
+    background-image: url(images/restaurant8.jpg);
+}
+
+
+.image-div h2{
+    margin: 20px;
+}
+
+.text-div{
+    color: grey;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin:0;
+    padding-bottom: 0;
+}
+
+.Table{
+    background-color: lightgray;
+    border-radius: 50px;
+    display: inline-flex;
+    padding:6px;
+    margin:10px;
+}
+
+.restaurant{
+    border: 1px solid black; 
+    border-radius: 20px;
+    box-shadow: 2px 2px 0px 0px lightgrey;
 }
