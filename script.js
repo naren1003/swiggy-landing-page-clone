@@ -61,3 +61,8 @@ function showMore1(){
     extras.forEach(row => row.classList.remove("hidden"));//removes the hidden class
     document.getElementById("button1").style.display = "none";//hides the button containing div
 }
+
+function dropDown(){
+    const more = document.querySelector(".more_cities");
+    more.classList.toggle("hidden");
+}

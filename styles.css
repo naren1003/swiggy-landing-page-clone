@@ -20,7 +20,7 @@ nav{
 
 .logo{
     height: 55px;
-    width: 150px;
+    width: 160px;
     margin:15px;
 }
 
@@ -39,7 +39,7 @@ a{
     margin-left:10px;
 }
 
-.app{
+.get-app{
     border: 1px solid white;
     padding:0px 18px;
     border-radius: 12px;
@@ -273,5 +273,49 @@ a{
 }
 
 .hidden {
-    display: none;
+    display: none !important;
+}
+
+footer{
+    background-color: rgb(240, 240, 245);
+    padding: 30px 150px;
+}
+
+footer p{
+    font-size: larger;
+    color: grey;
+}
+
+.logo1{
+    height: 55px;
+    width: 150px;
+    margin:15px;
+    color: orangered;
+}
+
+.footer-sec1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-sec1 i{
+    margin:8px;
+    font-size: large;
+}
+
+.footer-sec1 button{
+    padding:10px;
+    background-color: rgb(240, 240, 245);
+    border-radius: 10px;
+}
+
+.footer-sec2{
+    display: flex;
+    gap:55px;
+}
+
+.more_cities{
+    background-color: rgb(240, 240, 245);
+    display: flex;
+    justify-content: space-around;
 }
