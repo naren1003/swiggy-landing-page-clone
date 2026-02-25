@@ -1,4 +1,5 @@
 # Swiggy Landing Page Clone
+# Project 1 Official
 
 This project is a responsive landing page inspired by the Swiggy homepage.  
 Built using HTML and CSS to practice layout, responsiveness, and modern UI design.
@@ -14,6 +15,7 @@ Built using HTML and CSS to practice layout, responsiveness, and modern UI desig
 ##  Tech Stack
 - HTML5
 - CSS3 (Flexbox & Grid)
+- Js
 
 ##  Responsive Design
 The page is fully responsive and works on:
